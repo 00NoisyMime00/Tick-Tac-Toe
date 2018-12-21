@@ -9,6 +9,11 @@ s='1 2 3 4 5 6 7 8 9  '
 
 
 def printboard(n):
+	'''
+	 	The function prints the board, and also the user who has the next turn.
+		 The logic of adding a symbol includes searching the number in the string 's'
+		 and placing it in place if the next character is a space.
+	'''
 	global s, winner
 	global c
 	if n != 0:
