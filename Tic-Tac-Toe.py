@@ -10,9 +10,9 @@ s='1 2 3 4 5 6 7 8 9  '
 
 def printboard(n):
 	'''
-	 	The function prints the board, and also the user who has the next turn.
-		 The logic of adding a symbol includes searching the number in the string 's'
-		 and placing it in place if the next character is a space.
+ 	The function prints the board, and also the user who has the next turn.
+	 The logic of adding a symbol includes searching the number in the string 's'
+	 and placing it in place if the next character is a space.
 	'''
 	global s, winner
 	global c
@@ -110,6 +110,7 @@ if __name__=='__main__':
 		if winner != -1:
 			break
 		c+=1
+		
 if winner != -1:
 	print('WINNER IS PLAYER:'+str(winner))
 else:
